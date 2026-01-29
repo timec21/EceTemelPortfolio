@@ -36,7 +36,7 @@ header{
     background-color: rgba(255,255,255,.65);
     border-radius: 18px;
     padding: 10px 12px;
-    box-shadow: 18px 50px rgba(2,6,63,0.8);
+    box-shadow: 0 18px 50px rgba(2, 6, 63, .08);
 }
 
 .brand{
@@ -66,4 +66,130 @@ nav a:hover{
     background: rgba(141, 182, 202, 0.45);
     box-shadow: 0 8px 16px rgba(2, 6, 63, .08);
     opacity: 1;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 18px;
+    margin-top: 14px;
+    align-items: stretch;
+}
+
+.card{
+    background: rgba(255, 255, 255, .75);
+    border: 1px solid rgba(15, 23, 42, .12);
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 50px rgba(2, 6, 63, .08);
+    padding: 24px;
+    gap: 18px;
+}
+
+.hero .left{
+    padding: 22px;
+    display: grid;
+    gap: 12px;
+}
+
+.kicker{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    padding: 9px;
+    border-radius: 999px;
+     border: 1px solid rgba(15, 23, 42, .12);
+    background: rgba(255, 255, 255, .65);
+    font-size: 12.5px;
+    font-weight: 800;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(15, 23, 42, .12);
+    background: rgba(255, 255, 255, .65);
+    box-shadow: 0 8px 16px rgba(2, 6, 63, .08);
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, .12);
+}
+
+.chip {
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(15, 23, 42, .12);
+}
+
+.hero .right {
+    position: relative;
+    min-height: 280px;
+}
+
+.profile {
+    padding: 22px;
+    display: grid;
+    gap: 14px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    background: conic-gradient(from 180deg at 50% 50%, #f59e0b, #ef4444, #8b5cf6, #3b82f6, #10b981, #f59e0b);
+}
+
+.name {
+    display: grid;
+    gap: 8px
+}
+
+.name b {
+    font-size: 18px;
+}
+
+.name span {
+    font-size: 13px;
+    color: rgba(2, 6, 23, .36);
+}
+
+.quick {
+    display: grid;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 18px;
+    border: 1px solid rgba(15, 23, 42, .12);
+    background: rgba(255, 255, 255, .65);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.row small {
+    color: rgba(2, 6, 23, .45);
+}
+
+.row strong {
+    font-weight: 800;
 }
