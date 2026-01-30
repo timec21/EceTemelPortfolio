@@ -279,3 +279,15 @@ h1{
     font-size: 14px;
     color: rgba(2, 6, 23, .6)
 }
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.left{
+    display: grid;
+    gap: 8px;
+}
