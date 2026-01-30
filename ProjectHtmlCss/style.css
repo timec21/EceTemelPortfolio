@@ -252,3 +252,30 @@ h1{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.item{
+    padding: 16px;
+    display: grid;
+    gap: 8px;
+}
+
+.item b{
+    font-size: 16px;
+}
+
+.item span{
+    font-size: 13px;
+    color: rgba(2, 6, 23, .45)
+}
+
+.item p{
+    margin: 0;
+    font-size: 14px;
+    color: rgba(2, 6, 23, .6)
+}
