@@ -291,3 +291,18 @@ h1{
     display: grid;
     gap: 8px;
 }
+
+footer {
+  padding: 32px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(14px);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
