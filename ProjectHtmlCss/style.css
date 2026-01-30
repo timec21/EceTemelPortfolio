@@ -193,3 +193,62 @@ h1{
 .row strong {
     font-weight: 800;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.proj{
+    padding: 16px;
+    display: grid;
+    gap: 10px;
+    min-height: 170px;
+}
+
+.thum{
+    height: 86px;
+    border-radius: 16px;
+    background:
+        radial-gradient(600px 400px at 20% 20%, rgba(191, 122, 11, 0.25), transparent 60%),
+        radial-gradient(400px 300px at 80% 30%, rgba(30, 178, 211, 0.25), transparent 55%),
+        linear-gradient(180deg, #ffffff, #e0e7ff);
+    border: 1px solid rgba(15, 23, 42, .08);
+    position: relative;
+    overflow: hidden;
+}
+
+.proj h3{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.proj p{
+    margin: 0px;
+    font-size: 14px;
+    color: rgba(2, 6, 23, .6);
+}
+
+.meta{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 8px;
+    border-radius: 999px;
+    border: 1px solid rgba(15, 23, 42, .12);
+    background: rgba(255, 255, 255, .65);
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
