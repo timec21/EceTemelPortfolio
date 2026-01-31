@@ -306,3 +306,70 @@ footer {
   font-size: 14px;
   color: #666;
 }
+
+.mail{
+    background: linear-gradient(
+        180deg,
+        #eaf7fb 0%,
+        #d4f1f9 45%,
+        #f6f9ff 100%
+    );
+
+    padding: 12px 28px;
+
+    color: #1f2937; /* koyu gri – yumuşak */
+    font-weight: 500;
+
+    box-shadow:
+        0 8px 25px rgba(173, 216, 230, 0.35);
+
+    transition: all 0.3s ease;
+    font-weight: 700; /* BOLD */
+}
+
+.mail:hover{
+    background: linear-gradient(
+        180deg,
+        #dff4fa 0%,
+        #c7ecf6 45%,
+        #eef3ff 100%
+    );
+
+    transform: translateY(-1px);
+    box-shadow:
+        0 12px 35px rgba(173, 216, 230, 0.45);
+}
+
+
+.primary{
+    background: linear-gradient(
+        180deg,
+        #eaf7fb 0%,
+        #d4f1f9 45%,
+        #f6f9ff 100%
+    );
+
+    padding: 12px 28px;
+
+    color: #1f2937; /* koyu gri – yumuşak */
+    font-weight: 500;
+
+    box-shadow:
+        0 8px 25px rgba(173, 216, 230, 0.35);
+
+    transition: all 0.3s ease;
+    font-weight: 700; /* BOLD */
+}
+
+.primary:hover{
+    background: linear-gradient(
+        180deg,
+        #dff4fa 0%,
+        #c7ecf6 45%,
+        #eef3ff 100%
+    );
+
+    transform: translateY(-1px);
+    box-shadow:
+        0 12px 35px rgba(173, 216, 230, 0.45);
+}
